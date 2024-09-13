@@ -1,8 +1,13 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url('../../assets/fonts/Poppins-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
 .wrapper {
   padding: 14px 20px;
-
   border-radius: 30px;
-  opacity: 0px;
   max-height: 66px;
   max-width: 178px;
   border: none;
@@ -24,47 +29,49 @@
 }
 
 .text {
+  font-family: 'Poppins', sans-serif;
   display: block;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.29;
   letter-spacing: -0.01em;
-  color: var(--main-white);
+  color: #fff;
   text-align: center;
   white-space: nowrap;
-  transition: color var(--animation);
+  transition: color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .wrapper:disabled .add_water_btn_disabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
 .wrapper:disabled:hover .text {
-  color: var(--main-white);
+  color: #fff;
 }
 
 .wrapper:disabled:hover .icon {
-  stroke: var(--main-white);
+  stroke: #fff;
 }
 
 .wrapper:hover .text {
-  color: var(--accent);
-  transition: color var(--animation);
+  color: #9be1a0;
+  transition: color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .wrapper:hover .icon {
-  stroke: var(--accent);
-  transition: stroke var(--animation);
+  stroke: #9be1a0;
+  transition: stroke 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .wrapper:focus .text {
-  color: var(--accent);
-  transition: color var(--animation);
+  color: #9be1a0;
+  transition: color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .wrapper:focus .icon {
-  color: var(--accent);
-  transition: color var(--animation);
+  stroke: #9be1a0;
+  transition: stroke 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon {
@@ -73,8 +80,8 @@
   height: 15px;
   transform: rotate(45deg);
   border-radius: 50px;
-  stroke: var(--main-white);
-  transition: stroke var(--animation);
+  stroke: #fff;
+  transition: stroke 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   box-sizing: unset;
 }
 

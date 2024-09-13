@@ -55,7 +55,7 @@ export default function WaterMainInfo() {
       <div className={css.btn}>
         <AddWaterBtn
           mainColor={'#323f47'}
-          backgroundColorIcon={'none'}
+          backgroundColorIcon={'transparent'}
           colorText={'#fff'}
           colorIcon={'#fff'}
           openModal={openModal}
