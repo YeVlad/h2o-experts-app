@@ -1,0 +1,81 @@
+.container {
+  position: relative;
+  background-color: #9BE1A0;
+  max-width: 100%;
+  border-radius: 30px;
+  padding-top: 50px;
+}
+
+.trackerImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.trackerLogo {
+  display: inline-block;
+  position: absolute;
+  top: 24px;
+  left: 16px;
+}
+
+.btn {
+  position: absolute;
+  width: max-content;
+  top: 337px;
+  right: 16px;
+  display: block;
+  font-size: 14px;
+  line-height: 1.29;
+
+  font-weight: 700;
+  border-radius: 30px;
+
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 343px;
+    height: 415px;
+  }
+  .trackerImage {
+    width: 262px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    display: inline-block;
+    width: 704px;
+    height: 578px;
+    padding-top: 69px;
+  }
+  .trackerImage {
+    width: 374px;
+  }
+  .trackerLogo {
+    top: 32px;
+    left: 32px;
+  }
+
+  .btn {
+    top: 454px;
+    left: 494px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 672px;
+    height: 736px;
+    padding-top: 92;
+  }
+  .trackerImage {
+    width: 472px;
+  }
+  .btn {
+    top: 612px;
+    left: 462px;
+  }
+}
