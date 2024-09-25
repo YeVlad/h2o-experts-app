@@ -8,7 +8,7 @@ export const MESSAGES = {
     REFRESH: 'Successful refresh!',
     LOGIN_OAUTH: 'Successfully loged in with Google!',
     EDIT_USER: 'User data edited successfully',
-    ADD_WATER: 'Water data added successfully',
+    ADD_WATER: 'Water added successfully',
     EDIT_WATER: 'Water data edited successfully',
     DELETE_WATER: 'Water data deleted successfully',
     SEND_RESET_EMAIL: 'Reset email was sent successfully',
